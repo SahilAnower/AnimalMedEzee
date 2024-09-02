@@ -1,0 +1,17 @@
+type Medicine {
+  id: ID!
+  name: String!
+  description: String
+  manufacturer: String!
+  expDate: String!
+  price: Float!
+  qtyAvailable: Int!
+  dateAdded: String!
+  createdAt: String
+  updatedAt: String
+}
+
+type Query {
+  getMedicine(id: ID!): Medicine
+  listMedicines: [Medicine]
+}
