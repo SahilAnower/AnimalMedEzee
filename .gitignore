@@ -1,0 +1,7 @@
+# server gitignores
+
+server/node_modules
+server/dist
+server/.npmrc
+
+# client gitignores
